@@ -1,0 +1,33 @@
+.main{
+    width: 100%;
+
+    .categoryNav{
+        margin-top: 20px;
+        
+        ul{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+
+            li{
+                list-style-type: none;
+                // border: tomato solid 1px;
+                padding: 10px 20px;
+                border-radius: 30px;
+
+                // &:nth-child(1){
+                //     background: #4577FF;
+                //     a{
+                //         color: #fff;
+                //     }
+                // }
+
+                .Link{
+                    text-decoration: none;
+                    color: #000;
+
+                }
+            }
+        }
+    }
+}
