@@ -2,6 +2,8 @@ import styles from "./page.module.scss";
 import Header from "@/Components/Header";
 import ItemWrap from "@/Components/ItemWrap";
 import Link from "next/link";
+import Image from 'next/image'
+
 
 export default function Home() {
   return (
@@ -18,7 +20,9 @@ export default function Home() {
             <li><Link className={styles.Link} href="#">その他</Link></li>
           </ul>
         </div>
-        <ItemWrap />
+        <div className={styles.ItemBox}>
+          <ItemWrap />
+        </div>
       </main>
       
     </>
