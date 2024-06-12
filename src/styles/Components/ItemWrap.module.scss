@@ -3,14 +3,15 @@
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    width: 350px;
-    height: 300px;
+    width: 300px;
+    height: 250px;
+    background: #fff;
     border: #c9c9c9 solid 1px;
     border-radius: 20px;
     box-shadow: 0px 0px 15px -5px #c9c9c9;
 
     .timeWrap{
-        width: 300px;
+        width: 250px;
 
         .time{
             font-size: 0.7rem;
@@ -24,14 +25,15 @@
 
     .about{
         display: flex;
-        gap: 50px;
+        gap: 30px;
         margin-top: 10px;
         align-items: center;
 
         .User{
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 5px;
+            color: black;
 
             .userIcon{
                 box-shadow: 0 0 2px 0 #c9c9c9;
@@ -39,8 +41,8 @@
             }
 
             .rankIcon{
-                width: 20px;
-                height: 20px;
+                width: 15px;
+                height: 15px;
                 border-radius: 50%;
                 background-color: #c9c9c9;
             }

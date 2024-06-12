@@ -23,7 +23,7 @@ export default function Header(){
                             <Link href="/themaPost" className={style.Link}>お題を見る</Link>
                         </li>
                         <li>
-                            <Link href="/post" className={style.Link}>投稿する</Link>
+                            <Link href="/inputPost" className={style.Link}>投稿する</Link>
                         </li>
                         <li>
                             <Link href="/profile" className={style.Link}>プロフィール</Link>

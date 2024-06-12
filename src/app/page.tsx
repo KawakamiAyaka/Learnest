@@ -1,14 +1,11 @@
 import styles from "./page.module.scss";
-import Header from "@/Components/Header";
 import ItemWrap from "@/Components/ItemWrap";
 import Link from "next/link";
-import Image from 'next/image'
 
 
 export default function Home() {
   return (
     <>
-      <Header />
       <main className={styles.main}>
         <div className={styles.categoryNav}>
           <ul>
@@ -21,7 +18,28 @@ export default function Home() {
           </ul>
         </div>
         <div className={styles.ItemBox}>
-          <ItemWrap />
+        <Link className={styles.ItemLink} href="/mainPost"><ItemWrap /></Link>
+        <Link className={styles.ItemLink} href="/mainPost"><ItemWrap /></Link>       
+        <Link className={styles.ItemLink} href="/mainPost"><ItemWrap /></Link>       
+        <Link className={styles.ItemLink} href="/mainPost"><ItemWrap /></Link>       
+        </div>
+        <div className={styles.ItemBox}>
+        <Link className={styles.ItemLink} href="/mainPost"><ItemWrap /></Link>
+        <Link className={styles.ItemLink} href="/mainPost"><ItemWrap /></Link>       
+        <Link className={styles.ItemLink} href="/mainPost"><ItemWrap /></Link>       
+        <Link className={styles.ItemLink} href="/mainPost"><ItemWrap /></Link>       
+        </div>
+        <div className={styles.ItemBox}>
+        <Link className={styles.ItemLink} href="/mainPost"><ItemWrap /></Link>
+        <Link className={styles.ItemLink} href="/mainPost"><ItemWrap /></Link>       
+        <Link className={styles.ItemLink} href="/mainPost"><ItemWrap /></Link>       
+        <Link className={styles.ItemLink} href="/mainPost"><ItemWrap /></Link>       
+        </div>
+        <div className={styles.ItemBox}>
+        <Link className={styles.ItemLink} href="/mainPost"><ItemWrap /></Link>
+        <Link className={styles.ItemLink} href="/mainPost"><ItemWrap /></Link>       
+        <Link className={styles.ItemLink} href="/mainPost"><ItemWrap /></Link>       
+        <Link className={styles.ItemLink} href="/mainPost"><ItemWrap /></Link>       
         </div>
       </main>
       

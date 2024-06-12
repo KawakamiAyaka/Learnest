@@ -12,19 +12,19 @@ export default function ItemWrap(){
             </div>
             <Image
             className={style.designImg}
-            src="/iceCreamLogo.png" // 必要
-            width={300} // 必要
-            height={200} // 必要
-            alt="作品のサムネ" //文法的に必要
+            src="/iceCreamLogo.png"
+            width={250}
+            height={150}
+            alt="作品のサムネ"
             />
             <div className={style.about}>
                 <div className={style.User}>
                     <Image
                     className={style.userIcon}
-                    src="/iconOne.svg" // 必要
-                    width={50} // 必要
-                    height={50} // 必要
-                    alt="ユーザーアイコン" //文法的に必要
+                    src="/iconOne.svg"
+                    width={35}
+                    height={35}
+                    alt="ユーザーアイコン"
                     />
                     <p>Yamada Hana</p>
                     {/* ここにランクアイコン 下記仮の図形*/}
@@ -34,17 +34,17 @@ export default function ItemWrap(){
                 <div className={style.actionBtn}>
                     <Image
                         className={style.keep}
-                        src="/noKeep.svg" // 必要
-                        width={20} // 必要
-                        height={20} // 必要
-                        alt="作品のサムネ" //文法的に必要
+                        src="/noKeep.svg"
+                        width={20}
+                        height={20}
+                        alt="作品のサムネ"
                         />
                     <Image
                         className={style.nice}
-                        src="/noNice.svg" // 必要
-                        width={20} // 必要
-                        height={20} // 必要
-                        alt="作品のサムネ" //文法的に必要
+                        src="/noNice.svg"
+                        width={20}
+                        height={20}
+                        alt="作品のサムネ"
                         />
                 </div>
             </div>

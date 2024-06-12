@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import Image from 'next/image'
-import Header from "@/Components/Header";
 import style from "@/styles/themaPost.module.scss";
 import Link from "next/link";
 
@@ -17,7 +16,6 @@ export default function ThemaPost() {
 
     return (
         <>
-        <Header />
         <div className={style.themaWrap}>
             <p className={style.titl}>今回のデザインテーマ</p>
             {/* クリックイベントを追加 */}

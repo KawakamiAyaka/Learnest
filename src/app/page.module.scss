@@ -32,8 +32,19 @@
     }
 
     .ItemBox{
-        width: 80%;
-        margin: 0 auto;
-        border: tomato solid 1px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin: 50px auto;
+
+        .ItemLink{
+            text-decoration: none;
+            transition: all .3s ease 0s;
+
+            &:hover{
+                cursor: pointer;
+                transform: scale(1.1);
+            }
+        }
     }
 }
