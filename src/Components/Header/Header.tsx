@@ -1,6 +1,6 @@
 // 'use client';
 import Image from 'next/image'
-import style from "@/styles/Components/header.module.scss"
+import style from "@/Components/Header/Header.module.scss"
 import Link from 'next/link';
 
 export default function Header(){
