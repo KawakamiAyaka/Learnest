@@ -1,5 +1,6 @@
 import style from "@/styles/Components/PostBox.module.scss"
 import Image from 'next/image'
+import Link from "next/link"
 
 
 export default function PostBox(){
@@ -75,7 +76,7 @@ export default function PostBox(){
 
                         </div>
                     </div>
-                    <button className={style.feedbackBtn}>フィードバックする</button>
+                    <Link href="/mainPost/feedback" className={style.feedbackBtn}>フィードバックする</Link>
                 </div>
             </div>
         </>

@@ -1,4 +1,4 @@
-import style from "@/styles/mainPost.module.scss"
+import style from "@/styles/mainPost.module.scss";
 import PostBox from "@/Components/PostBox";
 
 
