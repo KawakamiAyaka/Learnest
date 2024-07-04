@@ -20,9 +20,9 @@
             padding: 0 0.5em;
             margin-left: 0.5em;
             margin-right: 0.5em;
-            border-left: 7px dotted #4577FF;
+            border-left: 7px dotted #6084E7;
             background-color: #fff;
-            outline: 3px solid #4577FF;
+            outline: 3px solid #6084E7;
             outline-offset: 0.5em;
             position: relative;
             
@@ -34,7 +34,7 @@
                 border-width: 0 30px 30px 0;
                 border-style: solid;
                 box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
-                border-color: #4c9ac0 #fff #10ED00;
+                border-color: #4c9ac0 #fff #6084E7;
             }
         }
 
@@ -77,16 +77,16 @@
 	padding: 1rem 4rem;
 	font-weight: bold;
 	border-radius: 30px;
-	color: #4577FF;
-	border: 3px solid #4577FF;
-	box-shadow: 5px 5px #4577FF;
+	color: #6084E7;
+	border: 3px solid #6084E7;
+	box-shadow: 5px 5px #6084E7;
 	transition: 0.3s ease-in-out;
 
     &:hover{
         box-shadow: none;
         transform: translate(5px, 5px);
         color: #fff;
-        background: #4577FF;
+        background: #6084E7;
     }
 }
 
