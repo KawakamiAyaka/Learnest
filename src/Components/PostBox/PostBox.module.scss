@@ -1,0 +1,19 @@
+.feedbackBtn{
+    width: 250px;
+    height: 60px;
+    background: #6084E7;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 4px 10px  #d9d9d9;
+    transition: .3s;
+    text-align: center;
+    line-height: 60px;
+    
+    &:hover{
+        background: #fff;
+        color: #6084E7;
+    }
+}
