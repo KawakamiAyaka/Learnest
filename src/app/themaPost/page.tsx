@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Image from 'next/image'
-import style from "@/styles/themaPost.module.scss";
+import style from "@/app/themaPost/themaPost.module.scss";
 import Link from "next/link";
 
 export default function ThemaPost() {
@@ -16,7 +16,13 @@ export default function ThemaPost() {
 
     return (
         <>
-        <div className={style.themaWrap}>
+        <div style={{
+            marginTop:'15vh',
+            display:'flex',
+            flexFlow:'column',
+            justifyContent:'center',
+            alignItems:'center'
+            }}>
             <p className={style.titl}>今回のデザインテーマ</p>
             {/* クリックイベントを追加 */}
             <div className={style.box} onClick={toggleDropdown}>
