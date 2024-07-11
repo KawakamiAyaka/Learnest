@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <main style={{width:'100%'}}>
-        <div style={{marginTop:'100px'}}>
+        <div style={{marginTop:'150px'}}>
           <ul style={{display:'flex',justifyContent:'center',gap:'30px',listStyleType:'none'}}>
             <li><Link href="#">急上昇</Link></li>
             <li><Link href="#">ポスター</Link></li>

@@ -76,7 +76,7 @@ export default function ThemaPost() {
                 <Link className={style.joinBtn} href="#">お題投稿に参加する</Link>
                 <div style={{textAlign:'center'}}>
                     <p style={{
-                        marginTop:'100px',
+                        margin:'100px 0 10px 0',
                         fontWeight:'bold'
                     }}>他の参加しているユーザーの投稿</p>
                     <Image className={style.downIcon}

@@ -78,7 +78,8 @@ export default function PostBox(){
                         <div style={{
                                 background:'#d7ffd5',
                                 position:'relative',
-                                borderLeft:'15px solid #6fff65'
+                                borderLeft:'15px solid #6fff65',
+                                boxShadow:'0 0 10px -5px #777777',
                             }}>
                             <div style={{
                                     display:'flex',
