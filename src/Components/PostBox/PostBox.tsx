@@ -7,7 +7,7 @@ export default function PostBox(){
     return(
         <>
             <div style={{
-                    width:'90%',
+                    width:'70%',
                     height:'70vh',
                     margin:'20vh auto 0 auto',
                     border:'#c9c9c9 solid 1px',
@@ -21,8 +21,8 @@ export default function PostBox(){
                         justifyContent:'space-between'
                     }}>
                     <div>
-                        <h1 style={{fontSize:'1.3rem'}}>アイスクリーム屋のロゴデザイン</h1>
-                        <p style={{color:'#6084E7'}}>#ロゴ</p>
+                        <h1 style={{fontSize:'1.4rem'}}>アイスクリーム屋のロゴデザイン</h1>
+                        <p style={{color:'#333'}}>#ロゴ</p>
                     </div>
                     <div style={{
                             display:'flex',
@@ -58,13 +58,13 @@ export default function PostBox(){
                     }}>
                     <Image
                     style={{
-                        width:'35%',
+                        width:'45%',
                         height:'80%',
                         objectFit:'contain',
                         border:'#c9c9c9 1px solid'
                     }}
                     src="/iceCreamLogo.png"
-                    width={500}
+                    width={400}
                     height={350}
                     alt="作品のサムネ"
                     />
@@ -74,7 +74,7 @@ export default function PostBox(){
                             flexFlow:'column',
                             gap:'40px'
                         }}>
-                        <h2>「Melty」という名の架空のアイスクリーム屋のロゴをデザイン。Meltyは溶けている状態を表す言葉。元気な子供がたくさん来店する店。</h2>
+                        <h2 style={{fontWeight:'normal'}}>「Melty」という名の架空のアイスクリーム屋のロゴをデザイン。Meltyは溶けている状態を表す言葉。元気な子供がたくさん来店する店。</h2>
                         <div style={{
                                 background:'#d7ffd5',
                                 position:'relative',
@@ -137,7 +137,7 @@ export default function PostBox(){
 
                         </div>
                     </div>
-                    <Link href="/mainPost/feedback" className={style.feedbackBtn}>フィードバックする</Link>
+                    <Link href="/feedback" className={style.feedbackBtn}>フィードバックする</Link>
                 </div>
             </div>
         </>

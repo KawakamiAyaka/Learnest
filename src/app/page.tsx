@@ -3,7 +3,7 @@ import ItemWrap from "@/Components/ItemWrap/ItemWrap";
 import Link from "next/link";
 
 
-export default function Home() {
+export default function top() {
   return (
     <>
       <main style={{width:'100%'}}>
