@@ -30,7 +30,7 @@ export default function inputPost() {
                         <input className={style.tag} type="text" placeholder="#タグを追加"/>
                     </div>
                 </div>
-                <Link href="/" className={style.PostBtn}>投稿</Link>
+                <Link href="/" className={style.feedbackBtn}>フィードバックする</Link>
             </main>
         </>
     )

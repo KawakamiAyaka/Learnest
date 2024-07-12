@@ -1,6 +1,4 @@
 import style from "@/app/inputPost/inputPost.module.scss"
-import Link from "next/link"
-
 
 export default function inputPost() {
     return (
@@ -30,7 +28,6 @@ export default function inputPost() {
                         <input className={style.tag} type="text" placeholder="#タグを追加"/>
                     </div>
                 </div>
-                <Link href="/" className={style.PostBtn}>投稿</Link>
             </main>
         </>
     )

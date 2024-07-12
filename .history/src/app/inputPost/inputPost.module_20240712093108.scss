@@ -1,0 +1,27 @@
+.inputWrap{
+    margin-top: 8%;
+
+    .inputTitle{
+        font-size: 1.3rem;
+    }
+
+    .inputFile{
+        background: #E2E7EC;
+        width: 30%;
+        height: 40vh;
+        border: dotted 2px #333;
+        position: relative;
+        margin-bottom: 20px;
+
+        .Notes{
+            position: absolute;
+            bottom: -20px;
+            right: -10px;
+            font-size: 0.8rem;
+        }
+    }
+    span{
+        font-size: 1rem;
+        font-weight: normal;
+    }
+}

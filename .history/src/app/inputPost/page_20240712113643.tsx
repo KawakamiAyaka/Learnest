@@ -1,6 +1,4 @@
 import style from "@/app/inputPost/inputPost.module.scss"
-import Link from "next/link"
-
 
 export default function inputPost() {
     return (
@@ -27,10 +25,9 @@ export default function inputPost() {
                         <h3>Point</h3>
                         <textarea className={style.Point} placeholder="注目ポイントや技術ポイント等を入力"/>
                         <h3>タグ</h3>
-                        <input className={style.tag} type="text" placeholder="#タグを追加"/>
+                        <input className={style.inputTitle} type="text" placeholder="タイトルを入力"/>
                     </div>
                 </div>
-                <Link href="/" className={style.PostBtn}>投稿</Link>
             </main>
         </>
     )
