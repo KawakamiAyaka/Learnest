@@ -26,8 +26,10 @@
                 margin: 0 10px;
 
                 .Link{
+                    // position:'relative',
+                    // textDecoration:'none',
+                    // fontWeight:'bold'
                     position: relative;
-                    font-weight: bold;
                 
                     &::after{
                         position: absolute;
