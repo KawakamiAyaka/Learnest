@@ -1,6 +1,6 @@
 "use client";
 import React, { useRef, useState, useEffect } from 'react';
-import style from "@/components/Canvas/Canvas.module.scss";
+import style from "@/Components/Canvas.module.scss";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEraser, faPen, faTrashCan, faFont, faTextSlash } from '@fortawesome/free-solid-svg-icons';
 
