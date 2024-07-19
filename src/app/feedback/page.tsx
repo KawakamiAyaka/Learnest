@@ -8,6 +8,7 @@ export default function FeedbackForm() {
             <main className={style.main}>
                 <Canvas />
                 <StarComponents />
+            
             </main>
         </>
     )
