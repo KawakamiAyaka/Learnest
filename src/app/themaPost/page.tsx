@@ -89,7 +89,6 @@ export default function ThemaPost() {
                 <div style={{width:'100%',display:'flex',flexWrap:'wrap',justifyContent:'center',}}>
                 <Link href="/mainPost"><ItemWrap/></Link>
                 </div>
-
             </main>
         </>
     );

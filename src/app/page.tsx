@@ -1,4 +1,4 @@
-import styles from "./page.module.scss";
+import style from "./page.module.scss";
 import ItemWrap from "@/Components/ItemWrap/ItemWrap";
 import Link from "next/link";
 
@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function top() {
   return (
     <>
-      <main style={{width:'100%'}}>
+      <main className={style.main}>
         <div style={{marginTop:'150px'}}>
           <ul style={{display:'flex',justifyContent:'center',gap:'30px',listStyleType:'none'}}>
             <li><Link href="#">急上昇</Link></li>

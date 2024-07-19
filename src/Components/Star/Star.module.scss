@@ -1,0 +1,25 @@
+.main{
+    text-align: center;
+    
+    .h2{
+        margin-bottom: 30px;
+    }
+    
+    .StarBtn{
+        border: none;
+        background: none;
+        margin: 5px;
+    }
+
+    textarea{
+        resize: none;
+        border: #d9d9d9 1px solid;
+        &::placeholder{
+            color: #d9d9d9;
+        }
+        
+        &:focus::placeholder {
+            color: transparent;
+        }
+    }
+}

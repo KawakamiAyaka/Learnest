@@ -1,0 +1,36 @@
+.main{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+
+    .canvas{
+        width: 700px;
+        height: 500px;
+        background: #fff;
+        border: #d9d9d9 1px solid;
+        box-shadow: #d9d9d9 1px 1px 10px 0;
+    }
+
+    .button {
+        background: none;
+        border: none;
+        
+        .btnStyle {
+            width: 20px;
+            height: 20px;
+            padding: 10px;
+            margin: 5px;
+            background: #fff;
+            border: #d9d9d9 2px solid;
+            box-shadow: #d9d9d9 3px 3px 3px 0;
+        }
+    }
+
+    .selected .btnStyle {
+        background: #d3e9ff;
+        border: #698aab 2px solid;
+        box-shadow: #b0b0b0 3px 3px 3px 0;
+    }
+}
