@@ -73,7 +73,7 @@ export default function ThemaPost() {
                         )}
                     </div>
                 </div>
-                <Link className={style.joinBtn} href="#">お題投稿に参加する</Link>
+                <Link className={style.joinBtn} href="/inputPost">お題投稿に参加する</Link>
                 <div style={{textAlign:'center'}}>
                     <p style={{
                         margin:'100px 0 10px 0',
