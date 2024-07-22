@@ -1,35 +1,36 @@
-.main{
+.main {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     margin-top: 30px;
-    
-    .h2{
+
+    .h2 {
         margin-bottom: 30px;
         font-size: 1.3rem;
     }
-    
-    .StarBtn{
+
+    .StarBtn {
         border: none;
         background: none;
         margin: 5px;
     }
 
-    textarea{
+    textarea {
         width: 350px;
+        padding: 8px;
 
         resize: none;
         border: #d9d9d9 1px solid;
-        &::placeholder{
+        &::placeholder {
             color: #d9d9d9;
         }
-        
+
         &:focus::placeholder {
             color: transparent;
         }
     }
-    .link{
+    .link {
         font-weight: bold;
         margin-top: 30px;
         display: block;
@@ -37,16 +38,16 @@
         height: 40px;
         text-align: center;
         line-height: 40px;
-        background: #6084E7;
+        background: #6084e7;
         color: #fff;
         border-radius: 20px;
         border: none;
-        box-shadow: 0 4px 10px  #d9d9d9;
-        transition: .3s;
-        
-        &:hover{
+        box-shadow: 0 4px 10px #d9d9d9;
+        transition: 0.3s;
+
+        &:hover {
             background: #fff;
-            color: #6084E7;
+            color: #6084e7;
         }
     }
 }
