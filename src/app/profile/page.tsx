@@ -14,15 +14,17 @@ export default function profile() {
                         <li><Link href="#">フィードバックアーカイブ</Link></li>
                     </ul>
                 <div className={style.marlBox}>
-                    <ItemWrap/>
-                    <ItemWrap/>
-                    <ItemWrap/>
-                    <ItemWrap/>
-                    <ItemWrap/>
+                <Link href="/mainPost"><ItemWrap/></Link>
+                <Link href="/mainPost"><ItemWrap/></Link>
+                <Link href="/mainPost"><ItemWrap/></Link>
+                <Link href="/mainPost"><ItemWrap/></Link>
+                <Link href="/mainPost"><ItemWrap/></Link>
                 </div>
                 </div>
-                <div className={style.profile}>
-                    
+                <div className={style.profileWrap}>
+                    <div className={style.profile}>
+
+                    </div>
                 </div>
             </main>
         </>

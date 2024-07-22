@@ -24,9 +24,16 @@
         padding: 30px;
         box-shadow: 0 0 10px 0 #d9d9d9;
     }
-    .profile{
+    .profileWrap{
         width: 400px;
         height: 600px;
         border: tomato 1px solid;
+
+        .profile{
+            width: 400px;
+            height: 600px;
+            position: fixed;
+            background: tomato;
+        }
     }
 }
