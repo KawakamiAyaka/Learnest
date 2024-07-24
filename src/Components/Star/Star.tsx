@@ -95,7 +95,7 @@ export default function InputPost() {
                         placeholder="ここに入力してください"
                     ></textarea>
                 </div>
-                <Link className={style.link} href="/">
+                <Link className={style.link} href="/feedbackAfter">
                     送信
                 </Link>
             </div>
