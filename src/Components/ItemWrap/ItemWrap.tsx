@@ -22,8 +22,7 @@ export default function ItemWrap() {
                             alt="ユーザーアイコン"
                         />
                         <p>Yamada Hana</p>
-                        {/* ここにランクアイコン 下記仮の図形*/}
-                        <div className={style.rankIcon}></div>
+                        <Image src="syokyuu3.svg" width={30} height={30} alt="初級3" />
                     </div>
                     <div className={style.actionBtn}>
                         <Image src="/noKeep.svg" width={30} height={30} alt="作品のサムネ" />

@@ -1,13 +1,13 @@
-.main{
+.main {
     margin-top: 150px;
     display: flex;
     justify-content: center;
     gap: 50px;
 
-    .markWrap{
+    .markWrap {
         width: 800px;
 
-        .nav{
+        .nav {
             display: flex;
             justify-content: center;
             gap: 30px;
@@ -16,7 +16,7 @@
         }
     }
 
-    .marlBox{
+    .marlBox {
         // border: #d9d9d9 1px solid;
         display: flex;
         justify-content: center;
@@ -24,16 +24,44 @@
         padding: 30px;
         box-shadow: 0 0 10px 0 #d9d9d9;
     }
-    .profileWrap{
+    .profileWrap {
         width: 400px;
         height: 600px;
-        border: tomato 1px solid;
 
-        .profile{
+        .profile {
             width: 400px;
             height: 600px;
             position: fixed;
-            background: tomato;
+
+            .rankUp {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 30px;
+
+                progress {
+                    width: 100%;
+                    height: 20px;
+                    -webkit-appearance: none;
+                    appearance: none;
+
+                    &::-webkit-progress-bar {
+                        background-color: #e7e7e7;
+                        border-radius: 15px;
+                        overflow: hidden;
+                    }
+
+                    &::-webkit-progress-value {
+                        background-color: #6084e7;
+                        border-radius: 15px;
+                    }
+
+                    &::-moz-progress-bar {
+                        background-color: #6084e7;
+                        border-radius: 15px;
+                    }
+                }
+            }
         }
     }
 }
