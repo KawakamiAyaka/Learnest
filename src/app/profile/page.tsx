@@ -46,6 +46,51 @@ export default function profile() {
                             </progress>
                             <Image src="tyuukyuu1.svg" width={60} height={60} alt="中級1" />
                         </div>
+                        <div className={style.User}>
+                            <Image
+                                style={{
+                                    border: "#d9d9d9",
+                                    boxShadow: "0 0 5px 0 #c9c9c9",
+                                    borderRadius: "50%",
+                                }}
+                                src="/iconOne.svg"
+                                width={100}
+                                height={100}
+                                alt="ユーザーアイコン"
+                            />
+                            <div>
+                                <p>Yamada Hana</p>
+                            </div>
+                            <div className={style.followFollower}>
+                                <div className={style.follow}>
+                                    <p style={{ fontWeight: "bold", fontSize: "1.5rem" }}>57</p>
+                                    <p
+                                        style={{
+                                            fontSize: "0.8rem",
+                                            fontWeight: "bold",
+                                            marginTop: "-10px",
+                                        }}
+                                    >
+                                        フォロー
+                                    </p>
+                                </div>
+                                <div className={style.follower}>
+                                    <p style={{ fontWeight: "bold", fontSize: "1.5rem" }}>2M</p>
+                                    <p
+                                        style={{
+                                            fontSize: "0.8rem",
+                                            fontWeight: "bold",
+                                            marginTop: "-10px",
+                                        }}
+                                    >
+                                        フォロワー
+                                    </p>
+                                </div>
+                            </div>
+                            <p style={{ fontSize: "0.8rem" }}>
+                                アイコンやグラフィックデザイン勉強中！
+                            </p>
+                        </div>
                     </div>
                 </div>
             </main>

@@ -32,12 +32,14 @@
             width: 400px;
             height: 600px;
             position: fixed;
+            text-align: center;
 
             .rankUp {
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 gap: 30px;
+                margin-bottom: 50px;
 
                 progress {
                     width: 100%;
@@ -61,6 +63,16 @@
                         border-radius: 15px;
                     }
                 }
+            }
+            .User p {
+                font-size: 1.3rem;
+                margin: 20px;
+            }
+
+            .followFollower {
+                display: flex;
+                justify-content: center;
+                gap: 20px;
             }
         }
     }
